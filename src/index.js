@@ -1,15 +1,15 @@
-import React from 'react';
+import React , {Fragment} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Counter } from './components/counter/counter';
+import SiteRouter from './router'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
-   <Counter/>
-  </div>
+  <Fragment>
+    <SiteRouter />
+  </Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
