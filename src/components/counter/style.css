@@ -1,0 +1,20 @@
+.counter{
+    border: 1px solid #000;
+    width:600px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+}
+button{
+    margin:10px;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-add{
+  background-color: green;
+}
+.btn-minus{
+  background-color: red;
+}
